@@ -4,37 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Portfolio | Udhayakrishna D</title>
+    <title>Home | Udhayakrishna D</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <style>
-        /* CSS Variables */
-        :root {
-            --primary-color: #4f46e5;
-            /* Indigo */
-            --secondary-color: #8b5cf6;
-            /* Violet */
-            --bg-color: #0f172a;
-            /* Slate 900 */
-            --text-color: #f8fafc;
-            /* Slate 50 */
-            --text-muted: #94a3b8;
-            /* Slate 400 */
-            --card-bg: rgba(30, 41, 59, 0.7);
-            /* Slate 800 with opacity */
-            --card-border: rgba(255, 255, 255, 0.1);
-        }
+<body>
 
-        /* Reset & Base Styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+
+    <!-- Background Animation -->
+    <div class="bg-gradient"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <a href="index.html" class="logo">Port<span>folio.</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-image reveal">
+            <img src="udhai.jpeg" alt="Udhayakrishna D - Home Profile Picture">
+        </div>
+        <div class="home-content reveal">
+            <h3>Hello, It's Me</h3>
+            <h1>Udhayakrishna D</h1>
+            <div class="typing-text">And I'm a <span id="typing-span"></span></div>
+            <p>I'm an enthusiastic IT student passionate about building modern web applications and exploring new
+                technologies. Constantly learning and evolving to create elegant solutions.</p>
+            <div class="btn-group">
+                <a href="contact.html" class="btn">Hire Me</a>
+                <a href="projects.html" class="btn btn-outline">My Work</a>
+            </div>
+            <div class="btn-group" style="margin-top: 1.5rem;">
+                <a href="udhaya resume.pdf" target="_blank" class="btn btn-outline"
+                    style="border-color: var(--primary-color); color: var(--text-color);">Open Resume <i
+                        class="fas fa-external-link-alt" style="margin-left: 5px;"></i></a>
+                <a href="udhaya resume.pdf" download="Udhayakrishna_Resume.pdf" class="btn">Download <i
+                        class="fas fa-download" style="margin-left: 5px;"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Udhayakrishna D | Designed with <i class="fas fa-heart" style="color: #e25555;"></i> for the
+            future.</p>
+    </footer>
+
+    <!-- Vanilla Tilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>            box-sizing: border-box;
             scroll-behavior: smooth;
         }
 
