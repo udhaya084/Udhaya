@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Udhayakrishna D</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- Background Animation -->
+    <div class="bg-gradient"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <a href="index.html" class="logo">Port<span>folio.</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" style="position: relative; overflow: visible;">
+        <!-- Decorative Background Glow -->
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; background: radial-gradient(circle at 50% 50%, rgba(79, 70, 229, 0.1), transparent 70%); z-index: -1; pointer-events: none;"></div>
+        
+        <h2 class="section-title reveal">About <span>Me</span></h2>
+
+        <div class="about-content">
+            <!-- Left Card: Bio -->
+            <div class="about-text glass-card reveal" style="transition-delay: 0.1s;">
+                <h3 style="display: flex; align-items: center; gap: 10px; margin-bottom: 1.5rem; color: var(--secondary-color);">
+                    <i class="fas fa-user-graduate"></i> IT Student
+                </h3>
+                <p>Hello! I am a dedicated 1st-year student currently pursuing my degree in Information Technology at
+                    Karpagam College of Engineering. I have a strong
+                    foundation in frontend development and love creating intuitive, dynamic user experiences.</p>
+                <p>My academic journey has equipped me with a solid understanding of software engineering principles,
+                    algorithms, and web technologies. I am passionate about learning and evolving to create elegant solutions.</p>
+            </div>
+
+            <!-- Right Card: Info Grid & Timeline -->
+            <div class="about-text glass-card reveal" style="transition-delay: 0.3s; padding: 1.5rem;">
+                <div class="info-grid" style="margin-top: 0; margin-bottom: 2rem;">
+                    <div class="info-item">
+                        <i class="fas fa-id-card"></i>
+                        <div>
+                            <h4>Roll Number</h4>
+                            <span>717825F255</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <span>717825f255@kce.ac.in</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-section" style="margin-top: 0;">
+                    <h3 style="font-size: 1.2rem; margin-bottom: 1rem; color: var(--text-color); border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px;">
+                        <i class="fas fa-history" style="color: var(--primary-color); margin-right: 10px;"></i>Education
+                    </h3>
+                    <div class="timeline" style="border-left: 2px solid var(--primary-color);">
+                        <!-- B.Tech -->
+                        <div class="timeline-item" style="margin-bottom: 1.5rem; position: relative;">
+                            <div class="timeline-date" style="font-size: 0.8rem; padding: 3px 10px; background: rgba(79, 70, 229, 0.1); color: var(--primary-color); font-weight: 600;">2025 - 2029</div>
+                            <div class="timeline-content" style="margin-top: 0.5rem;">
+                                <h4 style="font-size: 1.1rem; color: var(--text-color);">B.Tech Information Technology</h4>
+                                <p style="font-size: 0.9rem; color: var(--text-muted); opacity: 0.8;">Karpagam College of Engineering</p>
+                            </div>
+                        </div>
+                        <!-- 12th Grade -->
+                        <div class="timeline-item" style="margin-bottom: 1.5rem; position: relative;">
+                            <div class="timeline-date" style="font-size: 0.8rem; padding: 3px 10px; background: rgba(139, 92, 246, 0.1); color: var(--secondary-color); font-weight: 600;">2023 - 2025</div>
+                            <div class="timeline-content" style="margin-top: 0.5rem;">
+                                <h4 style="font-size: 1.1rem; color: var(--text-color);">12th Grade (HSC)</h4>
+                                <p style="font-size: 0.9rem; color: var(--text-muted); opacity: 0.8;">Vivekananda Matric Higher Secondary School, Attur</p>
+                            </div>
+                        </div>
+                        <!-- 10th Grade -->
+                        <div class="timeline-item" style="position: relative;">
+                            <div class="timeline-date" style="font-size: 0.8rem; padding: 3px 10px; background: rgba(45, 212, 191, 0.1); color: #2dd4bf; font-weight: 600;">Passed in 2023</div>
+                            <div class="timeline-content" style="margin-top: 0.5rem;">
+                                <h4 style="font-size: 1.1rem; color: var(--text-color);">10th Grade (SSLC)</h4>
+                                <p style="font-size: 0.9rem; color: var(--text-muted); opacity: 0.8;">Vivekananda Matric Higher Secondary School, Attur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Udhayakrishna D | Designed with <i class="fas fa-heart" style="color: #e25555;"></i> for the
+            future.</p>
+    </footer>
+
+    <!-- Vanilla Tilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
